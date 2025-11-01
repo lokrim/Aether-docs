@@ -118,9 +118,10 @@ const config = {
             position: "right",
           },
           {
-            href: "https://github.com/facebook/docusaurus",
-            label: "GitHub",
+            type: "html",
             position: "right",
+            value:
+              '<a href="https://github.com/sfu-akcse/Aether" target="_blank" style="content: \'\'; width: 24px; height: 24px; background-image: url(\'https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg\'); background-repeat: no-repeat; background-size: 24px 24px; display: flex"></a>',
           },
         ],
       },
