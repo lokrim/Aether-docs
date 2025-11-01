@@ -38,7 +38,12 @@ const config = {
   // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: "en",
-    locales: ["en"],
+    locales: ["en", "ko"],
+    localeConfigs: {
+      ko: {
+        label: "한국어",
+      },
+    },
   },
 
   presets: [
@@ -94,7 +99,24 @@ const config = {
             position: "left",
             label: "Tutorial",
           },
+          {
+            type: "docSidebar",
+            sidebarId: "raspberryPiSidebar",
+            position: "left",
+            label: "Raspberry Pi",
+          },
+          {
+            type: "docSidebar",
+            sidebarId: "esp32Sidebar",
+            position: "left",
+            label: "ESP32",
+          },
           { to: "/blog", label: "Blog", position: "left" },
+          // Locale switcher (auto-populated by Docusaurus i18n)
+          {
+            type: "localeDropdown",
+            position: "right",
+          },
           {
             href: "https://github.com/facebook/docusaurus",
             label: "GitHub",

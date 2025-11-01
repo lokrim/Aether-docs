@@ -39,3 +39,7 @@ GIT_USER=<Your GitHub username> yarn deploy
 ```
 
 If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+
+### 한국어 다큐멘팅 방법
+
+`/docs` 폴더 안에 있는 구조를 그대로 가져오되 `.md` 파일을 `/aether-docs/i18n/ko/docusaurus-plugin-content-docs/current`에 넣으시면 한국어 버젼도 보입니다.
