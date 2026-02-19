@@ -20,20 +20,22 @@ const sidebars = {
 
   // But you can create a sidebar manually
 
-  researchSidebar: [
-    "research/overview",
-  ],
+  softwareTeamSidebar: ["software-team/overview", "software-team/setup"],
+  mechanicalTeamSidebar: ["mechanical-team/overview"],
   tutorialSidebar: [
     "intro",
     {
       type: "category",
       label: "Tutorial",
-      items: ["tutorial-basics/create-a-document"],
+      items: [
+        "tutorial-basics/create-a-document",
+        "tutorial-basics/create-a-page",
+        "tutorial-basics/markdown-features",
+        "tutorial-extras/manage-docs-versions",
+        "tutorial-extras/translate-your-site",
+      ],
     },
   ],
-
-  raspberryPiSidebar: ["raspberry-pi/overview"],
-  esp32Sidebar: ["esp32/overview"],
 };
 
 export default sidebars;

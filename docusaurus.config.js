@@ -95,9 +95,15 @@ const config = {
         items: [
           {
             type: "docSidebar",
-            sidebarId: "researchSidebar",
+            sidebarId: "softwareTeamSidebar",
             position: "left",
-            label: "Research",
+            label: "Software Team",
+          },
+          {
+            type: "docSidebar",
+            sidebarId: "mechanicalTeamSidebar",
+            position: "left",
+            label: "Mechanical Team",
           },
           {
             type: "docSidebar",
@@ -105,19 +111,7 @@ const config = {
             position: "left",
             label: "Tutorial",
           },
-          {
-            type: "docSidebar",
-            sidebarId: "raspberryPiSidebar",
-            position: "left",
-            label: "Raspberry Pi",
-          },
-          {
-            type: "docSidebar",
-            sidebarId: "esp32Sidebar",
-            position: "left",
-            label: "ESP32",
-          },
-          { to: "/blog", label: "Blog", position: "left" },
+          // { to: "/blog", label: "Blog", position: "left" },
           // Locale switcher (auto-populated by Docusaurus i18n)
           {
             type: "localeDropdown",
@@ -163,18 +157,18 @@ const config = {
           {
             title: "More",
             items: [
-              {
-                label: "Blog",
-                to: "/blog",
-              },
+              // {
+              //   label: "Blog",
+              //   to: "/blog",
+              // },
               {
                 label: "GitHub",
-                href: "https://github.com/facebook/docusaurus",
+                href: "https://github.com/sfu-akcse/Aether",
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Project Aether by SFU AKCSE. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,
