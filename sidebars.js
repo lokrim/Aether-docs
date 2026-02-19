@@ -20,7 +20,17 @@ const sidebars = {
 
   // But you can create a sidebar manually
 
-  softwareTeamSidebar: ["software-team/overview", "software-team/setup"],
+  softwareTeamSidebar: [
+    "software-team/overview",
+    {
+      type: "category",
+      label: "Setup",
+      items: [
+        "software-team/setup/macos-setup",
+        "software-team/setup/windows-setup",
+      ],
+    },
+  ],
   mechanicalTeamSidebar: ["mechanical-team/overview"],
   tutorialSidebar: [
     "intro",
