@@ -30,6 +30,15 @@ const sidebars = {
         "software-team/setup/windows-setup",
       ],
     },
+    {
+      type: "category",
+      label: "Computer Vision",
+      items: [
+        "computer-vision/python",
+        "computer-vision/opencv",
+        "computer-vision/mediapipe",
+      ],
+    },
   ],
   mechanicalTeamSidebar: ["mechanical-team/overview"],
   tutorialSidebar: [
