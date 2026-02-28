@@ -22,6 +22,7 @@ const sidebars = {
 
   softwareTeamSidebar: [
     "software-team/overview",
+    "software-team/pull-requests",
     {
       type: "category",
       label: "Setup",
